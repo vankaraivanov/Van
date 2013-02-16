@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+table
+{
+    border-collapse:collapse;
+    border: 1px solid #ccc;
+    font-family: Arial;
+    font-size: 12px;
+}
+thead
+{
+    background: -moz-linear-gradient(top, #5ec306 0%, #50b406 100%); 
+    background: -webkit-linear-gradient(top, #5ec306 0%,#50b406 100%);
+    background: -o-linear-gradient(top, #5ec306 0%,#50b406 100%); 
+    background: linear-gradient(to bottom, #5ec306 0%,#50b406 100%); 
+    color: #fff;
+}
+td
+{
+    padding: 7px;
+    border: 1px solid #b5b5b5;
+}
+.Col1, .Col2, .Col3
+{
+    width: 150px;
+}
+table tr:nth-child(2n)
+{
+    background-color: #efefef;
+}
+td.country
+{
+    padding-left: 33px;
+}
+td.country.ger
+{
+	background:url("img/ger.png") no-repeat 4px;
+}
+td.country.mex
+{
+    background: url("img/mex.png") no-repeat 4px;
+}
+td.country.uk
+{
+    background: url("img/uk.png") no-repeat 4px;
+}

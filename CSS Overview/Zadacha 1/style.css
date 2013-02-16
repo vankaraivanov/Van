@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    background-color: #595959;
+    font-family: Arial;
+}
+a
+{
+    color: #f3f6ac;
+    text-decoration: none;
+}
+thead
+{
+    font-size: 20px;
+    color: #acb1aa;
+}
+span.circle 
+{
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: #71b47a;
+}
+span.alert
+{
+    color: red;
+    font-weight:bold;
+}
+td
+{
+    padding: 5px;
+    color: #ccc;
+}
+td.info, td.details
+{
+    font-size: 14px;
+}
+td.information
+{
+    font-style: italic;
+    color: #fff;
+}
+td.stat
+{
+    color: orange;
+	font-weight:bold;
+}
